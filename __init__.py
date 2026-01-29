@@ -22,7 +22,7 @@ from bpy.props import FloatVectorProperty, BoolProperty
 class MESH_OT_absolute_scale(bpy.types.Operator):
     """Scales selected elements' bounds to some dimensions"""
     bl_idname = "mesh.absolute_scale"
-    bl_label = "Absolute Scale zzz"
+    bl_label = "Absolute Scale"
     bl_options = {'REGISTER', 'UNDO'}
     
     a_scale: FloatVectorProperty(
@@ -535,4 +535,5 @@ def unregister():
     bpy.utils.unregister_class(MESH_OT_absolute_scale)
 
 if __name__ == "__main__":
+
     register()
