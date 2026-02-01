@@ -1,4 +1,4 @@
-A modal scale operator with numerical input for scaling selction to specific dimenstions. Works with Transform Orientation and Trransform Pivot Point settings. 
+A modal scale operator with numerical input for scaling selection to specific dimensions. Works with Transform Orientation and Trransform Pivot Point settings. 
 The idea is to set a hotkey for it or to add it to Quick Favourites menu. It' in Mesh Transform menu in edit mode:
 
 ![Mesh→Transform→Absolute Scale](https://github.com/user-attachments/assets/720c412d-4094-4f12-8a05-90d9f095d3cc)
