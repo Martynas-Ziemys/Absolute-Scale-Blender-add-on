@@ -36,7 +36,7 @@ class MESH_OT_absolute_scale(bpy.types.Operator):
     uniform: bpy.props.BoolProperty(
         name="Uniform",
         description="Scale all axes uniformly based on the reference axis",
-        default=False
+        default=True
     )
     ref_axis: bpy.props.EnumProperty(
         name="Reference Axis",
@@ -535,5 +535,4 @@ def unregister():
     bpy.utils.unregister_class(MESH_OT_absolute_scale)
 
 if __name__ == "__main__":
-
     register()
